@@ -1,152 +1,205 @@
-🌍 World Capital Quiz
+# 🌍 World Capital Quiz
 
-A simple interactive web-based quiz application that tests knowledge of world capitals.
+![Node.js](https://img.shields.io/badge/Node.js-Backend-green)
+![Express](https://img.shields.io/badge/Express.js-Framework-black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-Database-blue)
+![EJS](https://img.shields.io/badge/EJS-Templating-orange)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen)
 
-This project was built for learning and practising backend development using PostgreSQL and understanding how data is fetched dynamically from a database.
+An interactive **web-based quiz application** that tests your knowledge of world capitals.
+Built using **Node.js, Express, PostgreSQL, and EJS**, this project dynamically fetches data from a database and provides a fun learning experience.
 
-🎯 Purpose of This Project
+---
 
-This project was created for:
+## 🎯 Purpose of This Project
 
-Learning Node.js and Express
+This project was created to:
 
-Practicing PostgreSQL database integration
+* Learn **Node.js and Express**
+* Practice **PostgreSQL integration**
+* Understand backend data fetching
+* Connect frontend (EJS) with backend logic
+* Handle form submission and validation
 
-Understanding how the backend fetches data from the database
+📘 Inspired by:
+**Angela Yu – The Complete Full-Stack Web Development Bootcamp (Udemy)**
 
-Connecting frontend (EJS) with backend logic
+---
 
-Handling form submission and validation
+## 🚀 Features
 
-This project was developed as part of learning from the Udemy course:
+* 🌍 Random country questions
+* ✍️ User input for answers
+* 📈 Score tracking
+* ❌ Game over on wrong answer
+* 🔄 Restart quiz option
+* ⚡ Dynamic database-driven questions
 
-Angela Yu – Developer and Lead Instructor
+---
 
-Course:
-“The Complete Full-Stack Web Development Bootcamp”
+## 🛠️ Tech Stack
 
-The course covers:
+| Technology | Usage             |
+| ---------- | ----------------- |
+| Node.js    | Backend runtime   |
+| Express.js | Server framework  |
+| PostgreSQL | Database          |
+| EJS        | Templating engine |
+| HTML/CSS   | Frontend UI       |
 
-HTML
+---
 
-CSS
+## 📂 Project Structure
 
-JavaScript
-
-Node.js
-
-React
-
-PostgreSQL
-
-Web3 and DApps
-
-This quiz project was customized and implemented independently for better understanding and practice.
-
-🛠️ Tech Stack
-
-Node.js
-
-Express.js
-
-PostgreSQL
-
-EJS
-
-CSS
-
-📂 Project Structure
+```
 World-Capital-Quiz/
-│
-├── node_modules/          
-│
-├── public/
+│── node_modules/
+│── public/
 │   ├── images/
 │   │   └── background.jpg
-│   │
-│   └── styles/
-│       └── main.css
-│
-├── views/
+│   ├── styles/
+│   │   └── main.css
+│── views/
 │   └── index.ejs
-│
-├── capitals.csv           (optional if using)
-├── index.js
-├── package.json
-├── package-lock.json
-├── README.md
-└── .gitignore🗄️ Database Setup (PostgreSQL)
+│── capitals.csv (optional)
+│── index.js
+│── package.json
+│── package-lock.json
+│── README.md
+│── .gitignore
+```
 
-Open PostgreSQL.
+---
 
-Create database:
+## ⚙️ Installation & Setup
 
+### 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/your-username/world-capital-quiz.git
+```
+
+### 2️⃣ Navigate to Folder
+
+```bash
+cd world-capital-quiz
+```
+
+### 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+## 🗄️ Database Setup (PostgreSQL)
+
+### Create Database
+
+```sql
 CREATE DATABASE country;
+```
 
-Create table:
+### Create Table
 
+```sql
 CREATE TABLE capitals (
   id SERIAL PRIMARY KEY,
   country VARCHAR(100),
   capital VARCHAR(100)
 );
+```
 
-Insert sample data:
+### Insert Data
 
+```sql
 INSERT INTO capitals (country, capital) VALUES
 ('India', 'New Delhi'),
 ('France', 'Paris'),
 ('Germany', 'Berlin'),
 ('Japan', 'Tokyo'),
 ('Brazil', 'Brasilia');
-📦 Install Dependencies
+```
 
-Open terminal inside project folder and run:
+---
 
-npm install
+## ▶️ Run the Project
 
-If starting fresh:
-
-npm init -y
-npm install express body-parser pg ejs
-▶️ How To Run
-
-Run:
-
-node index.js
-
-Or:
-
+```bash
 nodemon index.js
+```
 
-Then open:
+OR
 
+```bash
+node index.js
+```
+
+🌐 Open in browser:
+
+```
 http://localhost:3000
-🎮 How It Works
+```
 
-Random country is displayed
+---
 
-User enters the capital
+## 🎮 How It Works
 
-Correct answer increases score
+1. A random country is displayed
+2. User enters the capital
+3. ✅ Correct → Score increases
+4. ❌ Wrong → Game ends
+5. 🔄 Restart and play again
 
-Wrong answer ends the game
+---
 
-User can restart
+## 📸 Screenshots
 
-💡 Future Improvements
+### 🏠 Home Page
 
-Add multiple-choice options
+![Home](images/home.png)
 
-Add leaderboard
+### ✅ Correct Answer
 
-Add timer
+![Correct](images/correct.png)
 
-Add difficulty levels
+### ❌ Game Over
 
-Deploy online
+![Game Over](images/gameover.png)
+
+---
+
+## 🎥 Demo (Optional but 🔥)
+
+👉 You can add a GIF here for better visibility
+(Use tools like ScreenToGif)
+
+```
+![Demo](images/demo.gif)
+```
+
+---
+
+## 💡 Future Improvements
+
+* 🔘 Multiple choice questions
+* 🏆 Leaderboard
+* ⏱️ Timer
+* 🎚️ Difficulty levels
+* 🌐 Deploy online
+
+---
+
+## 🙋‍♀️ Author
+
+**Prarthana Bhandari**
+🎓 MCA Student
+💻 Backend Developer Learner
 
 
 
-👩‍💻Prarthana Bhandari
-MCA Student
+
+
+
+
