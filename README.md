@@ -76,7 +76,7 @@ World-Capital-Quiz/
 ### 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/world-capital-quiz.git
+git clone https://github.com/Prarthanabhandari/GeoQuiz
 ```
 
 ### 2️⃣ Navigate to Folder
