@@ -183,16 +183,7 @@ http://localhost:3000
 
 ---
 
-## 📸 Screenshots
 
-### 🏠 Home Page
-![Home](images/home.png)
-
-### ✅ Correct Answer
-![Correct](images/correct.png)
-
-### ❌ Game Over
-![Game Over](images/gameover.png)
 
 ## 💡 Future Improvements
 
