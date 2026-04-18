@@ -56,25 +56,42 @@ EJS
 CSS
 
 📂 Project Structure
+
 World-Capital-Quiz/
+
 │
-├── node_modules/          
+├── node_modules/  
+
 │
 ├── public/
+
 │   ├── images/
+
 │   │   └── background.jpg
+
 │   │
 │   └── styles/
+
 │       └── main.css
+
 │
 ├── views/
+
 │   └── index.ejs
+
 │
-├── capitals.csv           (optional if using)
+├── capitals.csv    
+
+(optional if using)
+
 ├── index.js
+
 ├── package.json
+
 ├── package-lock.json
+
 ├── README.md
+
 └── .gitignore🗄️ Database Setup (PostgreSQL)
 
 Open PostgreSQL.
