@@ -89,8 +89,10 @@ cd world-capital-quiz
 
 ```bash
 npm install
-```
 
+npm install -g nodemon
+```
+npm install express body-parser pg ejs
 ---
 
 ## 🗄️ Database Setup (PostgreSQL)
